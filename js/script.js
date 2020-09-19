@@ -21,8 +21,8 @@ $(document).ready(function () {
 //slider-s
 $(document).ready(function () {
    $('.slider-s').slick({
-      prevArrow: "<img src='images/ARROW_/_LEFT.png' class='prev__s' alt='1'>",
-      nextArrow: "<img src='images/ARROW_/_RIGHT.png' class='next__s' alt='2'>",
+      prevArrow: "<img src='images/ARROW_/left1.png' class='prev__s' alt='1'>",
+      nextArrow: "<img src='images/ARROW_/right2.png' class='next__s' alt='2'>",
       arrows: true,
       dots: false,
       slidesToShow: 1,

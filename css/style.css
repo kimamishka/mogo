@@ -819,20 +819,23 @@ body {
       margin: 0 auto;
    }
 }
-@media (max-width: 320px) {
+@media (max-width: 550px) {
    .slider-s-text {
-      width: 100%;
-      text-align: center;
       margin-top: 30px;
    }
    .text-top {
-      color: #999999;
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: 300;
-      font-style: italic;
+      font-size: 24px;
+      line-height: 30px;
+      padding: 0 5px;
+   }
+}
+@media (max-width: 320px) {
+   .slider-s-text {
+      margin-top: 30px;
+   }
+   .text-top {
       font-size: 20px;
       line-height: 26px;
-      margin-bottom: 20px;
    }
 }
 /*-----------------------------Team------------------------*/
