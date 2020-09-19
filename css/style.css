@@ -481,6 +481,7 @@ body {
    display: flex;
 }
 .count__item {
+   width: 240px;
    flex: 1 1 0; /*чтобы колонки были одинаковой ширины*/
    border-left: 1px solid #b5eae0;
    text-align: center;
@@ -503,25 +504,22 @@ body {
 }
 @media (max-width: 1200px) {
    .count__item {
-      width: 80%;
+      width: 240px;
       padding: 35px 12px;
    }
 }
 @media (max-width: 992px) {
    .count {
       flex-direction: column;
+      text-align: center;
    }
    .count__item {
-      width: 600px;
+      width: 240px;
       padding: 12px 12px;
       margin: 0 auto;
    }
 }
-@media (max-width: 600px) {
-   .count__item {
-      margin-left: -30%;
-   }
-}
+
 /*-------------------------------Amazing-----------------------------------*/
 .tittle-amazing {
    margin-top: 109px;
@@ -892,6 +890,19 @@ body {
 }
 .labels-img img {
    width: 100%;
+}
+@media (max-width: 320px) {
+   .team-cont {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 30%;
+      margin: 0 5px;
+   }
+   .team__img img {
+      width: 95px;
+      height: 117.5px;
+   }
 }
 /*-------------------------------Work----------------*/
 .tittle-work {
