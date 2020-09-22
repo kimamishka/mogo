@@ -608,11 +608,6 @@ body {
    margin-top: -380px;
    margin-left: 55%;
 }
-@media (max-width: 767px) {
-   .design-images {
-      /*visibility: hidden;*/
-   }
-}
 /*--------------------------------------service-----------------------------*/
 .tittle-service {
    margin-top: 205px; /*945-850+110=205*/
