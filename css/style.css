@@ -577,7 +577,7 @@ body {
 }
 /*------------------------------------Design------------------------------------*/
 .design {
-   background: url(../images/design/fon2.png) no-repeat;
+   background: url(../images/design/fon2.jpg) no-repeat;
    background-size: cover;
    background-position: center;
    z-index: 1;
@@ -970,7 +970,6 @@ body {
 }
 .item1,
 .item7 {
-   /*background: url(../images/work/Rectangle_17.png);*/
    background-color: #81c4b7;
    transition: transform 0.2s linear;
 }
@@ -981,7 +980,6 @@ body {
    transition: transform 0.2s linear;
 }
 .item4 {
-   /*background: url("../images/work/Rectangle_17_copy.png") no-repeat;*/
    background: linear-gradient(to bottom, #f38181, #fce38a);
    transition: transform 0.2s linear;
 }
@@ -1108,7 +1106,7 @@ body {
 }
 /*-----------------------------------Clients------------------*/
 .clients {
-   background: url(../images/clients/fon.png) no-repeat;
+   background: url(../images/clients/fon.jpg) no-repeat;
    background-size: cover;
    background-position: center;
    padding-top: 110px;
