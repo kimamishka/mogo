@@ -156,14 +156,7 @@ body {
    font-family: "Kaushan Script";
    font-size: 60px;
 }
-@media (max-width: 500px) {
-   .intro-title__name {
-      margin-top: 80px;
-   }
-   .intro-title h1 {
-      font-size: 80px;
-   }
-}
+
 .intro-title h1 {
    padding: 0px;
    margin-bottom: 50px;
@@ -173,23 +166,16 @@ body {
    font-weight: 700;
    text-transform: uppercase;
 }
-@media (max-width: 767px) {
-   .intro-title h1 {
-      font-size: 60px;
-   }
-   .intro-title__name {
-      font-size: 30px;
-   }
-}
+
 /*--------------------------slider-------------------------------------*/
 .slider {
    position: absolute;
-   /* width: 1200px;*/
-   width: 100%;
+   width: 95%;
    z-index: 10;
    bottom: 0px;
    display: flex;
    justify-content: space-between;
+   text-align: center;
 }
 .slider__item {
    width: 23%;
@@ -205,6 +191,43 @@ body {
 }
 .slider__item.active {
    opacity: 1;
+}
+@media (max-width: 900px) {
+   .intro-title h1 {
+      font-size: 60px;
+      margin-bottom: 20px;
+   }
+   .intro-title__name {
+      font-size: 30px;
+      margin-bottom: 20px;
+   }
+   .intro-underline {
+      margin-bottom: 20px;
+   }
+}
+@media (max-width: 820px) {
+   .intro-title h1 {
+      font-size: 40px;
+      margin-bottom: 14px;
+   }
+   .intro-title__name {
+      font-size: 20px;
+      margin-bottom: 14px;
+   }
+   .intro-underline {
+      margin-bottom: 14px;
+   }
+   .slider__item {
+      font-size: 14px;
+   }
+   .slider__item b {
+      font-size: 20px;
+   }
+}
+@media (max-width: 450px) {
+   .intro-title__name {
+      margin-top: 40px;
+   }
 }
 
 /*-------------------------------Header--------------------------------*/
@@ -912,11 +935,38 @@ body {
 .labels {
    background-color: #f8f8f8;
 }
-.labels-img {
-   padding: 50px 0;
+
+.slick-slider {
+   min-width: 0;
 }
-.labels-img img {
-   width: 100%;
+
+.slick-list {
+   overflow: hidden;
+}
+
+.slick-track {
+   display: flex;
+   align-items: flex-start;
+}
+.slider-l {
+   display: flex;
+   position: relative;
+   padding: 0 15px;
+}
+
+.slider-l__item img {
+   max-width: 100%;
+}
+@media (max-width: 992px) {
+   .team {
+      margin-bottom: 50px;
+   }
+}
+@media (max-width: 420px) {
+   .team__img img {
+      width: 125.5px;
+      height: auto;
+   }
 }
 @media (max-width: 320px) {
    .team-cont {
@@ -927,13 +977,18 @@ body {
       margin: 0 5px;
    }
    .team__img img {
-      width: 95px;
+      width: 96px;
       height: 117.5px;
    }
 }
 /*-------------------------------Work----------------*/
 .tittle-work {
    margin-top: 110px;
+}
+@media (max-width: 992px) {
+   .tittle-work {
+      margin-top: 50px;
+   }
 }
 /*-------------------collage--------------------------*/
 .collage {

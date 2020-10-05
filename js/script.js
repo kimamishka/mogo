@@ -72,3 +72,39 @@ $(document).ready(function () {
       ]
    });
 });
+$(document).ready(function () {
+   $('.slider-l').slick({
+      arrows: false,
+      dots: false,
+      slidesToShow: 6,
+      autoplay: true,
+      speed: 1000,
+      autoplaySpeed: 4000,
+      responsive: [
+         {
+            breakpoint: 992,
+            settings: {
+               slidesToShow: 5
+            }
+         },
+         {
+            breakpoint: 800,
+            settings: {
+               slidesToShow: 4
+            }
+         },
+         {
+            breakpoint: 600,
+            settings: {
+               slidesToShow: 3
+            }
+         },
+         {
+            breakpoint: 400,
+            settings: {
+               slidesToShow: 2
+            }
+         }
+      ]
+   });
+});
