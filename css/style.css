@@ -1238,6 +1238,10 @@ body {
    justify-content: space-between;
 }
 @media (max-width: 1200px) {
+   .stories {
+      margin-top: 50px;
+      margin-bottom: 50px;
+   }
    .stories-container {
       display: flex;
       flex-direction: column;
