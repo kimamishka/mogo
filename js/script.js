@@ -2,9 +2,12 @@
 //БУРГЕР
 $(document).ready(function () {
    $(".header-burger").click(function (event) {
-      $(".header-burger, .header-menu").toggleClass("active"); /*при нажатии меняются виды указанных классов (полоски бургера меняем на крестик, меню выкатывается из под шапки)*/
-      $("body").toggleClass("lock"); /*чтобы при открытом меню бургера текст под меню случайно не скролился, оставался на том же месте, где мы зашли в бургер*/
+      $(".header-menu").toggleClass("active");
+      $(".header-menu").css("top", "0");
    });
+});
+$(".header-inner__link").click(function (event) {
+   $(".header-menu").css("top", "-100%");
 });
 
 //Spoiler
